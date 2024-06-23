@@ -1,0 +1,101 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5e6; /* Fondo color crema */
+    color: #000000; /* Texto negro */
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    max-width: 1200px; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+header {
+    background-color: #8B0000; /* Rojo oscuro */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espacio hacia abajo */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Tamaño del título */
+    text-transform: uppercase; /* Mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem; /* Tamaño de fuente */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 100px; /* Ancho del logo */
+    height: auto;
+    margin: 0 10px; /* Espacio entre logos */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario */
+}
+
+form label {
+    margin-top: 10px;
+    font-size: 1.1rem; /* Tamaño de fuente */
+    color: #8B0000; /* Rojo oscuro para subtítulos */
+    text-align: left; /* Alineación a la izquierda */
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #333333; /* Borde negro */
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem; /* Tamaño de fuente */
+}
+
+form button {
+    background-color: #8B0000; /* Rojo oscuro */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.1rem; /* Tamaño de fuente */
+}
+
+form button:hover {
+    background-color: #5B0000; /* Rojo más oscuro */
+}
